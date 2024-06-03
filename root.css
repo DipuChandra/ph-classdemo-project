@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+
+:root{
+    --bacground-colour:#0c0418;
+    --font-primary-colour:#feffff;
+    --primary-colour:#ba0bf9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Antonio", sans-serif;
+    font-weight: 400;
+    color:var(--font-primary-colour);
+}
+
+body{
+    background-color: var(--bacground-colour);
+}
+.container{
+    padding: 0px 40px;
+}

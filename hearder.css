@@ -1,0 +1,146 @@
+.header-container {
+    height: 100%;
+
+    background-image: url(./Image/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+
+.nap {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--font-primary-colour);
+    font-size: 36px;
+}
+
+#right-menu-icon-id {
+    width: 175px;
+    text-align: right;
+}
+
+
+.baner-title h1 {
+    font-size: 162px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin: 20px 0px;
+}
+
+.baner-desc {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+
+    margin: 20px 0px;
+}
+
+.baner-profile-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--font-primary-colour);
+    border-bottom: 1px solid var(--font-primary-colour);
+}
+
+.baner-profile-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 40px;
+
+
+
+}
+
+.check-works-container {
+    display: flex;
+    gap: 14px;
+    padding: 20px 0px;
+
+
+
+}
+
+.underline {
+    display: flex;
+    border-bottom: 1px solid var(--font-primary-colour);
+
+}
+
+
+.check-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.baner-image-container {
+    background-color: var(--font-primary-colour);
+    width: fit-content;
+
+
+}
+
+#baner-image {
+    width: 300px;
+}
+
+.complete-project-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete-project-container h1 {
+    font-size: 162px;
+    text-transform: uppercase;
+}
+
+.complete-project-container p {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    .container {
+        padding: 0px 5px;
+    }
+
+    .nap {
+        font-size: 16px;
+        color: aqua;
+    }
+
+    .complete-project-container {
+
+        flex-direction: column;
+
+    }
+
+    .baner-profile-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .baner-image-container {
+
+        width: 100%;
+
+
+    }
+
+
+    #baner-image {
+        width: 100%;
+    }
+
+    .baner-title h1 {
+        font-size: 25px;
+       
+    }
+
+}

@@ -21,7 +21,15 @@ body{
 .container{
     padding: 0px 40px;
 }
+.bg-image{
+    background-image: linear-gradient(to bottom right,#5d4af12f,#b90bf95c);
+}
 /* dipudemr.surge.sh */
-/* git add . 
+/*git init.
+git add .
+git commit -m "Add existing project files to Git"
+git push -u -f origin master.
+ 
+git add . 
 git commit -m"you message"
 git push */

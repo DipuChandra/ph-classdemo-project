@@ -1,0 +1,83 @@
+
+footer{
+   
+    margin-top: 100px;
+    
+   /*  height: 100vh; */
+    background-image: linear-gradient(to bottom right,#5d4af1c3,#b90bf9d2);
+}
+.footer-conatiner{
+    display: flex;
+    padding: 50px 0px;
+    margin: 50px 50px 0px 50px;
+    border-bottom: 1px solid white;
+}
+.left-footer-form{
+    width: 50%;
+   /*  background-color: orange; 
+    height: 100vh;*/
+}
+.right-footer-contact{
+    width: 50%;
+/*     background-color: aqua;
+     height: 100vh;*/
+
+}
+.input{
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+::placeholder{
+    color: white;
+    font-size: 20px;
+
+}
+#send-btn{
+    width: 70%;
+    padding: 15px;
+    background-color: transparent;
+    font-size: 30px;
+    border: 1px solid white;
+}
+.form{
+    margin-top: 50px;
+}
+ 
+.right-footer-contact{
+    text-transform: uppercase;
+  
+
+}
+.right-footer-contact h1{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.right-footer-contact p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.social-icon{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.footer-copyright{
+    text-align: center;
+    padding: 20px 0px;
+   /*  background-image: linear-gradient(to bottom right,#5d4af1fd,#b90bf9f7); */
+}
+.footer-copyright h1{
+    font-size: 25px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+
+
+}

@@ -34,6 +34,20 @@ border-bottom: 1px solid var(--font-primary-colour);
 }
 /* project end */
 /* blog stared */
+.section-blog{
+    height: 100%;
+    margin-top: 80px;
+}
+.blogs{
+    display: flex;
+   justify-content: space-between;
+}
+.blog-image img{
+    width: 100%;
+}
+.blog{
+    max-width: 370px;
+}
 .tag{
     background-color: var(--font-primary-colour);
    width: fit-content;
@@ -47,6 +61,7 @@ border-bottom: 1px solid var(--font-primary-colour);
 .date-name{
     display: flex;
     gap: 20px;
+    
 }
 .date{
     display:flex;
@@ -67,9 +82,85 @@ border-bottom: 1px solid var(--font-primary-colour);
     border-radius: 100%;
     background-color: blue;
 }
+.blog-title h1{
+
+    font-size: 32px;
+    margin-top: 20px;
+}
 
 
 /* blog end */
+/*testimonial started */
+.testimonial-title{
+    text-align: center;
+   
+  
+}
+#testimonial-description{
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.testimonial-container{
+    height: 100%;
+    margin-top: 80px;
+}
+#testimonial-title{
+    font-size: 64px;
+    color: var(--primary-colour);
+}
+.testimonial-card{
+    margin-top: 80px;
+}
+.testimonial-card{
+    display: flex;
+    gap: 10px;
+}
+.left-side-card-top{
+  
+    width: 65%;
+   
+}
+.right-side{
+    width: 35%;
+   background-image: linear-gradient(to bottom right,#5d4af12f,#b90bf95c);
+
+}
+.right-side img{
+    width: 100%;
+}
+.right-side h1{
+    font-size: 38px;
+    margin-top: 40px;
+    padding: 10px;
+
+}
+.right-side p{
+    margin-top: 30px;
+    padding: 10px;
+    
+}
+.testi-left-card{
+    padding: 10px;
+}
+.testi-left-card-title{
+    font-size: 38px;
+    margin-top: 40px;
+}
+.testi-left-card-desc{
+    margin-top: 30px;
+}
+.left-side-top{
+    display: flex;
+    background-image: linear-gradient(to bottom right,#5d4af12f,#b90bf95c);
+}
+.left-side-bottom{
+    display: flex;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom right,#5d4af12f,#b90bf95c);
+}
+
+/* testimonial end */
 
 @media only screen and (min-width: 200px) and (max-width: 576px) {
 
@@ -82,5 +173,39 @@ border-bottom: 1px solid var(--font-primary-colour);
         grid-template-columns: auto;
         gap: 4px;
     }
-
+    .blogs{
+        flex-direction: column;
+    }
+    .testimonial-card{
+       flex-direction: column;
+    }
+    .left-side-top{
+        flex-direction: column;
+    }
+    .left-side-bottom{
+        flex-direction: column;
+    }
+    .left-side-top img{
+        width: 100%;
+    }
+    .left-side-bottom img{
+        width: 100%;
+    }
+    .left-side-card-top{
+  
+        width: 100%;
+       
+    }
+    .right-side{
+        width: 100%;
+    
+    
+    }
+    .testi-left-card{
+        order: 2;
+    }
+    .left-sidebottom-image{
+        order: 1;
+    }
+    
 }
